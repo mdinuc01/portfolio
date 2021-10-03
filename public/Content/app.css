@@ -355,6 +355,7 @@ table {
   }
   #welcome{
     width: 300px;
+    height: 200px;
     position: relative;
     left: -31px;
   }
