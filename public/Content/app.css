@@ -312,7 +312,7 @@ table {
   color: orange;  
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   body{
     overflow-x: hidden;
   }
@@ -378,7 +378,7 @@ table {
   #tables{
     left: -200px;
     top:-500px;
-    width: 315px;
+    width: 220px;
     
   }
   
