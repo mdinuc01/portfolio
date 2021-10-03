@@ -385,6 +385,8 @@ table {
   #semester1,#semester2,#semester3{
     display: list-item;
     list-style: none;
+    left:200px;
+    top: 50px;
   }
   .hover{
     font-size: 18px;
