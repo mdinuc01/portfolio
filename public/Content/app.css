@@ -332,7 +332,7 @@ table {
   
   #jum_projects{
     width: 330px;
-    height: 1550px;
+    height: 1350px;
   }
   
   .projects_img{
@@ -400,9 +400,10 @@ table {
     font-size: 18px;
 
   }
+  
   #table1, #table2, #table3{
-    left: 190px;
-    width: 250px;
+    left: 165px;
+    width: 300px;
     height: 400px;
   }
   #services_page{
@@ -436,5 +437,16 @@ table {
   textarea{
     left: -13px;
     width:320px;
+  }
+  #product_box{
+    width: 300px;
+    position: relative;
+    left: -30px;
+  }
+  
+  .projects_img{
+    left: -65px;
+    width: 210px;
+    height: 160px;
   }
 } 
