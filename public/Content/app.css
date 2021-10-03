@@ -312,45 +312,64 @@ table {
   color: orange;  
 }
 
-@media (max-width: 900px) {
+@media (max-width: 500px) {
   body{
     overflow-x: hidden;
   }
   
-  #jum_home, #jum_projects, #jum_services {
-    width: 500px;
+  #jum_home, #jum_services {
+    width: 330px;
     height: 1000px;
+  }
+  
+  #jum_projects{
+    width: 330px;
+    height: 1350px;
+  }
+  
+  .projects_img{
+    width: 200px;
+    position: relative;
+    top: 150px;
+    left: -100px;
   }
   
   #jum_contact{
     height: 1400px;
-    width: 500px;
+    width: 350px;
+    position: relative;
+    left: -13px;
     
   }
    #jum_about{
-    width: 500px;
+    width: 330px;
     height: 1400px;
   }
   #welcome{
-    width: 400px;
+    width: 300px;
+    position: relative;
+    left: -31px;
   }
   .home_box{
-    width: 400px;
-    left: 0px;
+    width: 300px;
+    height: 550px;
+    left: -29px;
     bottom: -20px
   }
   #me{
-    left: 25px;
+    left: 15px;
+    height: 200px;
+    width: 200px;
   }
   .about_box{
-    left: -30px;
-    bottom: 700px;
-    width: 400px;
-    height: 800px;
+    left: -14px;
+    bottom: 850px;
+    width: 280px;
+    height: 900px;
   }
   #about_text{
-    width: 300px;
-    left: 30px;
+    width: 260px;
+    left: -5px;
     top: 30px;
   }
   #computer_pic{
@@ -358,39 +377,54 @@ table {
   }
   #tables{
     left: -200px;
+    top:-500px;
+    width: 315px;
+    
   }
   
+  #semester1,#semester2,#semester3{
+    display: list-item;
+    list-style: none;
+  }
   .hover{
-    font-size: 10px;
+    font-size: 18px;
+
   }
   #table1, #table2, #table3{
-    left: 180px;
-    width: 450px;
+    left: 190px;
+    width: 250px;
+    height: 400px;
   }
   #services_page{
-    width: 400px;
-    left: 0px;
+    width: 300px;
+    left: -32px;
     top: 10px;
+    height: 400px;
   }
   #service_img{
-    width: 400px;
-    left: 0px;
+    width: 300px;
+    left: -30px;
   }
   #contact_box{
-    width: 400px;
+    width: 330px;
+    left: -40px;
+    height: 220px;
   }
   #contact_box2{
-    width: 400px;
-    left: 0;
+    width: 330px;
+    left: -40px;
     top: 70px;
   }
   .contact_page{
-    left: 20px;
+    left: -22px;
     font-size:small;
   }
-  
+  .button{
+    font-size: 11px;
+  }
   
   textarea{
-    left: -45px;
+    left: -13px;
+    width:320px;
   }
 } 
