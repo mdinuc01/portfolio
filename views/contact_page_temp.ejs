@@ -1,0 +1,62 @@
+<!--File Name: contact_page_temp.ejs
+    Student Name: Michael-Angelo Dinuccio
+    StudentID: 301177707
+    Date: September 30th, 2021
+    -->
+
+<%- include Partials/header.ejs%>
+
+<%- include Partials/main_nav.ejs%>
+
+<!--Main Content-->
+  <main class="container">
+    <div class="jumbotron bg-light p-5 rounded-lg m-3" id="jum_contact">
+    <h1 class="display-4"><%= title %></h1>
+    <hr></hr>
+    
+    <img src="/Assets/images/me.jfif" id="me">
+    <!--Contact Info-->
+    <div id="contact_box">
+      <h4>Contact Information:</h4>
+      <hr>
+      <ul style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <li><b>School Email:</b> <a href="mailto:mdinucci@my.centennialcollege.ca" id="contact_a">mdinucci@my.centennialcollge.ca</a></li>
+        <li><b>Phone Number:</b>(647) 767-6728</li>
+        <li><a href="https://www.linkedin.com/in/michael-angelo-dinuccio-software-engineering-student/" id="contact_a" target="blank"><b>LinkedIn</b></a></li>
+      </ul>
+    </div>
+    <!--Form Section-->
+    <div id="contact_box2">
+    <form>
+      <h6 id="contact_h6">Fill out this Form with your contact information and leave me a message and I'll get back to you soon.</h6>
+      <div class="contact_page">
+    <br>
+		<label>First Name: &nbsp; </label>
+		<input name="txtFirstName" required="required" tabindex="1" placeholder="John">
+    <br>
+		<label>Last Name:&nbsp;&nbsp;&nbsp; </label>
+		<input name="txtFirstName" required="required" tabindex="2" placeholder="Smith" >
+    <br>
+    <label>Contact Number:&nbsp;&nbsp;&nbsp; </label>
+		<input name="txtPhone" required="required" tabindex="3" placeholder="(999) 999-9999" >
+		<br>
+    <label>Your Email:&nbsp;&nbsp;&nbsp; </label>
+    <input name="txtEmail" required="required" tabindex="4" placeholder="john.smith@email.com" >
+    <br>
+    <br>
+    <textarea cols="50" name="txtComments" rows="7" placeholder="Type your message here:" tabindex="5"></textarea><br>
+    <br>
+    <br>
+    <input name="bntSubmit" tabindex="6" type="submit" value="Sumbit Completed Form" class="button"> 
+    <input name="bntRest" tabindex="7" type="reset" value="Clear Form" class="button">
+    </form>
+    </div>
+    </div>
+</main>
+<br>
+<br>
+<br>
+
+<%- include Partials/bottom_nav.ejs%>  
+
+<%- include Partials/footer.ejs%>

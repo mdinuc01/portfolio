@@ -1,0 +1,37 @@
+<!--File Name: home_page_temp.ejs
+    Student Name: Michael-Angelo Dinuccio
+    StudentID: 301177707
+    Date: September 30th, 2021
+    -->
+
+<%- include Partials/header.ejs%>
+
+<%- include Partials/main_nav.ejs%>
+
+<!--Main Content-->
+    <div class="pages">
+    <% if(title == "Home"){ %>
+  <%- include Partials/home_page.ejs%>
+<% } %>
+<% if(title == "About Me"){ %>
+  <%- include Partials/about_page.ejs%>
+<% } %>
+<% if(title == "Projects"){ %>
+  <%- include Partials/projects_page.ejs%>
+<% } %>
+<% if(title == "Services"){ %>
+  <%- include Partials/services_page.ejs%>
+<% } %>
+<% if(title == "Contact Me"){ %>
+  <%- include contact_page_temp.ejs%>
+<% } %>
+    </div>
+</main>
+
+      <br>
+      <br>
+      <br>
+
+<%- include Partials/bottom_nav.ejs%>  
+
+<%- include Partials/footer.ejs%>  
