@@ -128,7 +128,7 @@ input {
 
 #welcome{
   width: 55%;
-  height: auto;
+  height: 480px;
   border-radius: 10px;
   display: inline;
   border: #334355 1px solid;
